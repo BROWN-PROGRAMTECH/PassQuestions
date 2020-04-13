@@ -1,0 +1,111 @@
+body{
+    background-repeat: no-repeat;
+    background-color:rgb(255, 255, 255);
+    height: 80%;
+    width: 100%;
+}
+#father-nav{
+    flex-direction: row;
+    color: rgb(9, 85, 250);
+    float: right;
+    margin-right: 10cm;
+    flex-wrap: nowrap;
+    position: fixed;
+    display:grid ;
+}
+#first-sun{
+    float: left;
+    margin-left:4cm;
+    margin-top: 2cm;
+    text-align: center;
+}
+#second-sun{
+    margin-left: 4cm;
+    margin-top: .4cm;
+    float: left;
+}
+#third-sun{
+    margin-right: 0.1cm;
+    margin-top: .4cm;
+    float: right; 
+}
+#connexion{
+    color: white;
+    background-color:rgb(7, 30, 243);
+}
+#connexion:hover{
+    color: rgb(3, 3, 139);
+}
+
+#aside3>#info{
+    margin-top: 1cm;
+}
+#aside2>a{
+    color: white;
+}
+
+a{
+    color: blue;
+    padding-bottom: 1cm;
+    text-decoration: none;
+    text-align: justify;    
+}
+#form{
+    float: right;
+    margin-right: 0cm;
+    background-color: silver;
+    width: 50%;
+    height: 16cm;
+    border: 1mm;
+}
+.inscription{
+    font-size: 10mm;
+    
+}
+#btn-inscription{
+    background-color: rgb(65, 6, 175);
+    width: 5cm;
+    height: 1cm;
+    color: white;
+    border-radius: 2mm;
+    margin-top: .4cm;
+    font-size: .7cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#btn-forget{
+    background-color: rgb(65, 6, 175);
+    width: 5cm;
+    height: 1cm;
+    color: white;
+    border-radius: 2mm;
+    margin-top: .4cm;
+    font-size: .5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+#fathersection{
+    width: 40%;
+    height: 60%;
+    background: rgb(171, 173, 173);
+    position: fixed;
+    float: right;
+    margin-top:2cm;
+    margin-bottom: 10cm;
+    margin-left: 30%;
+    margin-right: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+#signup{
+    text-decoration: underline;
+    color: wheat;
+}
+input{
+    border-radius: 5px;
+}
+marquee{
+    color: rgb(10, 199, 247);
+    font-size: .7cm;
+}
